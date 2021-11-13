@@ -1,0 +1,31 @@
+{
+  "name": "nikolas_backend_rickandmorty",
+  "version": "1.0.0",
+  "description": "Repositório versão pessoal do backend do projeto rick and morty",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolasfuruta/nikolas_backend_rickandmorty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikolasfuruta/nikolas_backend_rickandmorty/issues"
+  },
+  "homepage": "https://github.com/nikolasfuruta/nikolas_backend_rickandmorty#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "consign": "^0.1.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  }
+}
