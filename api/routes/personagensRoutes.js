@@ -1,6 +1,6 @@
 const {Router} = require('express');
 const router = Router();
-const PersonagemController = require('../controllers/personagensControllers');
+const PersonagemController = require('../controllers/PersonagensControllers.js');
 
 // router.get('/', (req,res)=>{
 //     res.status(200).json({message:"API OK"})
